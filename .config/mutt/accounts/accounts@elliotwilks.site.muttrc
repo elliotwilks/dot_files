@@ -1,0 +1,19 @@
+# vim: filetype=neomuttrc
+# muttrc file for account accounts@elliotwilks.site
+set real_name = "accounts"
+set from = "accounts@elliotwilks.site"
+set sendmail = "msmtp -a accounts@elliotwilks.site"
+alias me accounts <accounts@elliotwilks.site>
+set folder = "/home/elliot/.local/share/mail/accounts@elliotwilks.site"
+set header_cache = "/home/elliot/.cache/mutt-wizard/accounts_elliotwilks.site/headers"
+set message_cachedir = "/home/elliot/.cache/mutt-wizard/accounts_elliotwilks.site/bodies"
+set mbox_type = Maildir
+set hostname = "elliotwilks.site"
+source /usr/local/share/mutt-wizard/switch.muttrc
+set spool_file = "+INBOX"
+set postponed = "+Drafts"
+set trash = "+Trash"
+set record = "+Sent"
+
+macro index o "<shell-escape>mailsync accounts@elliotwilks.site<enter>" "sync accounts@elliotwilks.site"
+mailboxes "=Drafts" "=Junk" "=Sent" "=INBOX"

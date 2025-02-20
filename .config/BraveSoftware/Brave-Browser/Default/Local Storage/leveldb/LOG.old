@@ -1,0 +1,12 @@
+2025/02/19-18:19:56.304 4 Reusing MANIFEST /home/elliot/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2025/02/19-18:19:56.308 4 Recovering log #59
+2025/02/19-18:19:56.309 4 Reusing old log /home/elliot/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000059.log 
+2025/02/19-18:24:11.810 5 Level-0 table #64: started
+2025/02/19-18:24:11.815 5 Level-0 table #64: 77675 bytes OK
+2025/02/19-18:24:11.819 5 Delete type=0 #59
+2025/02/19-18:30:11.810 4 Level-0 table #66: started
+2025/02/19-18:30:11.815 4 Level-0 table #66: 58483 bytes OK
+2025/02/19-18:30:11.818 4 Delete type=0 #63
+2025/02/19-18:37:11.811 5 Level-0 table #68: started
+2025/02/19-18:37:11.825 5 Level-0 table #68: 63773 bytes OK
+2025/02/19-18:37:11.831 5 Delete type=0 #65

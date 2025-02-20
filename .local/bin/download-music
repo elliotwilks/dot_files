@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Get URL from clipboard
+URL=$(xclip -o -selection clipboard)
+
+# Download the audio
+yt-dlp -x --audio-format mp3 -P ~/Music "$URL"

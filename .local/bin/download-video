@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Get URL from clipboard
+URL=$(xclip -o -selection clipboard)
+
+# Download the audio
+
+# yt-dlp -f "bv*[ext=mp4]+ba[ext=m4a]" --merge-output-format mp4 -P ~/Videos/downloads "$URL"
+
+yt-dlp -f "bv*[height<=1080][ext=mp4]+ba[ext=m4a]" --merge-output-format mp4 -P ~/Videos/downloads "$URL"

@@ -1,0 +1,22 @@
+account elliot@elliotwilks.site
+host mail.elliotwilks.site
+port 465
+from elliot@elliotwilks.site
+user elliot@elliotwilks.site
+passwordeval "pass elliot@elliotwilks.site"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/elliot/.local/state/msmtp/msmtp.log
+tls_starttls on
+account accounts@elliotwilks.site
+host mail.elliotwilks.site
+port 465
+from accounts@elliotwilks.site
+user accounts@elliotwilks.site
+passwordeval "pass accounts@elliotwilks.site"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/elliot/.local/state/msmtp/msmtp.log
+tls_starttls off

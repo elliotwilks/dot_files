@@ -1,0 +1,2 @@
+#!/bin/sh
+ffplay -f v4l2 -framerate 30 -video_size 480x480 -i /dev/video0 -window_title "webcam" -fast -fflags nobuffer -flags low_delay -left 1400 -top 40

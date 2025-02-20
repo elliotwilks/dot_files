@@ -1,0 +1,13 @@
+# Enable copy to clipboard
+set selection-clipboard clipboard
+
+# Dark mode
+set default-bg "#000000"
+set default-fg "#FFFFFF"
+
+# Use sqlite as database backend
+set database sqlite
+
+
+set window-height 1000
+set window-width 1200

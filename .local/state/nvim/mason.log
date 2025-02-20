@@ -1,0 +1,13 @@
+[INFO  Mon 13 Jan 2025 15:44:12] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clangd) {}
+[INFO  Mon 13 Jan 2025 15:44:29] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[INFO  Mon 13 Jan 2025 15:44:38] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=lua-language-server)
+[ERROR Mon 13 Jan 2025 15:45:47] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=clangd) error=spawn: unzip failed with exit code - and signal -. unzip is not executable
+[ERROR Mon 13 Jan 2025 15:50:00] ...pack/packer/start/mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"Clangd\"".
+[INFO  Mon 13 Jan 2025 15:50:18] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clangd) {}
+[ERROR Mon 13 Jan 2025 15:52:01] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=clangd) error=spawn: unzip failed with exit code - and signal -. unzip is not executable
+[INFO  Mon 13 Jan 2025 16:11:48] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clangd) {}
+[ERROR Mon 13 Jan 2025 16:13:23] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=clangd) error=spawn: unzip failed with exit code - and signal -. unzip is not executable
+[INFO  Mon 13 Jan 2025 16:14:56] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clangd) {}
+[ERROR Mon 13 Jan 2025 16:16:26] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=clangd) error=spawn: unzip failed with exit code - and signal -. unzip is not executable
+[INFO  Mon 13 Jan 2025 16:20:56] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clangd) {}
+[INFO  Mon 13 Jan 2025 16:22:26] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=clangd)
